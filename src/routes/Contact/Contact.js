@@ -4,7 +4,7 @@ import withStyles from '../../lib/withStyles'
 
 import Wrapper from '../../components/Wrapper'
 
-import s from './Contact.scss'
+import s from './Contact.less'
 
 const Contact = () => (
   <Wrapper>

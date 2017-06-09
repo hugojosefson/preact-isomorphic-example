@@ -2,7 +2,7 @@ import { h } from 'preact'
 
 import withStyles from '../../lib/withStyles'
 
-import s from './Card.scss'
+import s from './Card.less'
 
 const Card = ({ json }) => json.Response === 'True' ?
   <div class={ s.root }>

@@ -4,7 +4,7 @@ import withStyles from '../../lib/withStyles'
 
 import Nav from '../Nav'
 
-import s from './Root.scss'
+import s from './Root.less'
 
 class Root extends Component { // eslint-disable-line
   render ({ children, currentRoute }) {

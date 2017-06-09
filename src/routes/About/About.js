@@ -4,7 +4,7 @@ import withStyles from '../../lib/withStyles'
 
 import Wrapper from '../../components/Wrapper'
 
-import s from './About.scss'
+import s from './About.less'
 
 const About = () => (
   <Wrapper>

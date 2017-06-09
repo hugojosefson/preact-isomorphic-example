@@ -5,7 +5,7 @@ import withStyles from '../../lib/withStyles'
 import Wrapper from '../../components/Wrapper'
 import Card from '../../components/Card'
 
-import s from './Home.scss'
+import s from './Home.less'
 
 @withStyles(s)
 export default class Home extends Component {

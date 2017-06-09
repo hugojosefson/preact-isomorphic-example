@@ -1,4 +1,4 @@
-@import '../../styles/variables.scss';
+@import '../../styles/variables';
 
 .root {
   display: flex;
@@ -6,16 +6,16 @@
   align-items: center;
   justify-content: center;
   height: 60px;
-  background: $primary-color;
+  background: @primary-color;
   z-index: 1;
-  box-shadow: 0 .1rem .5rem rgba(black, .3);
+  box-shadow: 0 .1rem .5rem fade(black, .3);
 }
 
 .link {
   height: 60px;
   line-height: 60px;
   padding: 0 20px;
-  color: $secondary-color;
+  color: @secondary-color;
   display: block;
   text-decoration: none;
   transition: background-color .2s ease;
@@ -23,9 +23,9 @@
 
 .linkActive {
   composes: link;
-  background: $light-primary-color;
+  background: @light-primary-color;
 }
 
 .link:hover {
-  background: $light-primary-color;
+  background: @light-primary-color;
 }

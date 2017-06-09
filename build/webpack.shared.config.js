@@ -57,7 +57,7 @@ export default env => {
         test: /\.json$/,
         loader: 'json-loader'
       }, {
-        test: /\.scss$/,
+        test: /\.less$/,
         use: [
           'isomorphic-style-loader', {
             loader: 'css-loader',
@@ -68,7 +68,7 @@ export default env => {
             }
           },
           'postcss-loader',
-          'sass-loader'
+          'less-loader'
         ],
         exclude: /node_modules/
       }, {

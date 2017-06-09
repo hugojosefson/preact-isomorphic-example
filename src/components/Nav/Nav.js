@@ -3,7 +3,7 @@ import Link from '../Link'
 
 import withStyles from '../../lib/withStyles'
 
-import s from './Nav.scss'
+import s from './Nav.less'
 
 const NavLink = props => (
   <Link class={ props.currentRoute === props.to ? s.linkActive : s.link } { ...props }>

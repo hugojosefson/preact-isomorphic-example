@@ -4,7 +4,7 @@ import withStyles from '../../lib/withStyles'
 
 import Wrapper from '../../components/Wrapper'
 
-import s from './NotFound.scss'
+import s from './NotFound.less'
 
 const NotFound = () => (
   <Wrapper>
